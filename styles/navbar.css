@@ -1,0 +1,51 @@
+.navbar {
+  margin-top: 25px auto;
+  width: 100%;
+  height: 250px;
+}
+.navbar-container {
+  display: inline-flex;
+}
+.logo {
+  display: block;
+  margin-top: 0;
+  margin-right: 200px;
+  margin-left: 130px;
+}
+.nav-links {
+  flex-wrap: wrap;
+  margin-right: 150px;
+}
+.nav-links li {
+  float: left;
+  padding: 20px;
+  font-weight: 500;
+}
+.nav-links li:nth-child(3) {
+  padding-right: 50px;
+}
+.nav-link {
+  color: var(--dark-color);
+  font-size: 20px;
+}
+.lets-talk {
+  margin-top: 15px;
+  display: block;
+  width: 220px;
+  height: 70px;
+  background-color: white;
+  border: 1px solid var(--dark-color);
+  border-radius: 10px;
+  color: var(--dark-color);
+  font-size: 24px;
+}
+.lets-talk:hover {
+  background-color: var(--dark-color);
+  color: white;
+  border: none;
+}
+.dropdown {
+}
+.hidden {
+  visibility: hidden;
+}
