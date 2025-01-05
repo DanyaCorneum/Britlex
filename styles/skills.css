@@ -1,0 +1,65 @@
+.skills h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 100px 0;
+}
+.skills-container {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: grid;
+  grid-template-columns: 435px 435px 435px;
+  grid-template-rows: 530px 340px;
+  grid-gap: 10px;
+}
+.item {
+  background-color: var(--light-gray);
+  border-radius: 10px;
+  padding: 20px;
+}
+.item h3 {
+  color: var(--dark-color);
+  font-size: 30px;
+  margin: 0;
+  font-weight: 600;
+}
+.item p {
+  color: var(--gray);
+  height: 65px;
+}
+.item button {
+  width: 220px;
+  height: 60px;
+  color: white;
+  background-color: var(--dark-color);
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 30px;
+}
+.item button:hover {
+  border: 1px solid var(--dark-color);
+  background-color: var(--light-gray);
+  color: var(--dark-color);
+}
+.speaking {
+  grid-column: 1 / 1;
+  grid-row: 1 / 3;
+}
+.speaking p {
+  font-size: 16px;
+  width: 350px;
+  height: 200px;
+}
+.writing img {
+  width: 250px;
+  height: 250px;
+}
+.reading {
+}
+.listening {
+  grid-column: 2 / 4;
+  display: inline-flex;
+}
+.listening-inner {
+  margin-top: 40px;
+}

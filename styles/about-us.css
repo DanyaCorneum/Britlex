@@ -1,0 +1,43 @@
+.about-us {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 200px;
+}
+.about-us-container {
+  display: flex;
+  justify-content: space-between;
+}
+.about-us-inner {
+  width: 600px;
+}
+.about-us-inner p {
+  width: 590px;
+}
+.about-us-inner h3 {
+  font-size: 48px;
+  color: var(--dark-color);
+}
+.about-us-inner p {
+  color: var(--gray);
+}
+.stats {
+  display: grid;
+  grid-template-columns: 75px 300px 150px;
+}
+.stats-item {
+  text-align: center;
+  color: var(--gray);
+}
+.num {
+  color: var(--dark-color);
+  font-size: 40px;
+  font-weight: 600;
+}
+.stats-text {
+}
+.people {
+}
+.teachers {
+}
+.languages {
+}
