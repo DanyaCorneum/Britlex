@@ -1,0 +1,43 @@
+.contuct-us {
+  margin-left: 100px;
+}
+.contuct-us-container {
+  display: flex;
+}
+.contuct-us-inner h2 {
+  font-size: 40px;
+}
+.contuct-us-inner {
+  margin-left: 100px;
+  width: 770px;
+}
+
+.contuct-us-inner p {
+  color: var(--gray);
+  font-size: 20px;
+}
+.contuct-us-inner input {
+  width: 450px;
+  height: 80px;
+  border-radius: 10px;
+  color: var(--gray);
+  padding-right: 100px;
+}
+
+.contuct-us-inner input {
+  padding-left: 20px;
+  font-size: 16px;
+}
+.contuct-us-inner button {
+  background-color: var(--dark-color);
+  width: 250px;
+  height: 80px;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.contuct-us-inner button:hover {
+  background-color: white;
+  border: 1px solid var(--dark-color);
+  color: var(--dark-color);
+}
