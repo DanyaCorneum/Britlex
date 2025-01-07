@@ -54,12 +54,18 @@
   width: 250px;
   height: 250px;
 }
-.reading {
+.reading img {
+  width: 370px;
+  height: 247px;
 }
 .listening {
   grid-column: 2 / 4;
   display: inline-flex;
 }
+.listening img {
+  order: 2;
+}
 .listening-inner {
   margin-top: 40px;
+  order: 1;
 }
