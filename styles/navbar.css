@@ -89,7 +89,7 @@
     height: 50px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
   .navbar-container {
     justify-content: baseline;
   }
