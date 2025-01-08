@@ -1,7 +1,5 @@
 .skills {
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 .skills h2 {
   text-align: center;
@@ -9,13 +7,13 @@
   font-weight: 600;
   margin: 100px 0;
 }
-.skills-container {
-}
+
 .skills-container {
   display: grid;
   grid-template-columns: 435px 435px 435px;
   grid-template-rows: 530px 340px;
   grid-gap: 10px;
+  margin-left: 100px;
 }
 .item {
   background-color: var(--light-gray);
@@ -97,10 +95,13 @@
   }
 }
 @media screen and (max-width: 1100px) {
+  .skills {
+  }
   .skills-container {
     grid-template-columns: 300px 300px 300px 300px;
     grid-template-rows: 800px 800px;
     grid-gap: 10px;
+    margin-left: 150px;
   }
   .item p {
     height: 300px;
@@ -132,7 +133,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 525px) {
   .skills {
     margin: 0 20px 20px;
   }
@@ -140,6 +141,7 @@
     grid-template-columns: 290px;
     grid-template-rows: 800px 800px 800px 800px;
     grid-gap: 10px;
+    margin: 0;
   }
   .reading {
     grid-column: 1 / 1;

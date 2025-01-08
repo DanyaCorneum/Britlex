@@ -70,7 +70,7 @@
     text-align: center;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
   .girl {
     width: 300px;
     height: 300px;

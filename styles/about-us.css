@@ -14,7 +14,7 @@
   width: 590px;
   color: var(--gray);
 }
-.about-us-container h3 {
+.about-us h3 {
   font-size: 48px;
   color: var(--dark-color);
 }
@@ -40,7 +40,7 @@
 .languages {
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
   .about-us {
     margin-left: 10px;
     margin-right: 10px;
@@ -52,7 +52,7 @@
   .about-us-inner {
     order: 2;
   }
-  .about-us-container h3 {
+  .about-us h3 {
     text-align: center;
     font-size: 24px;
   }
