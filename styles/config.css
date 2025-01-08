@@ -92,6 +92,22 @@ ul {
   .get-started-inner {
     order: 2;
   }
+  /* aboutus */
+  .about-us-container {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .about-us-container img {
+    order: 1;
+  }
+  .about-us-inner {
+    order: 2;
+  }
+  .stats {
+    grid-template-columns: 150px 150px 150px;
+    justify-content: center;
+  }
   /* skills */
   .skills-container {
     grid-template-columns: 400px 400px 400px;
@@ -326,5 +342,22 @@ ul {
   .listening {
     grid-column: 1 / 1;
     grid-row: 4 / 4;
+  }
+  /* aboutus */
+  .about-us-inner {
+    width: 300px;
+    height: 1000px;
+  }
+  .about-us-container img {
+    width: 300px;
+    height: 300px;
+  }
+  .about-us-inner p {
+    font-size: 14px;
+    width: 300px;
+  }
+  .stats {
+    grid-template-columns: 200px;
+    grid-template-rows: 150px 150px 150px;
   }
 }

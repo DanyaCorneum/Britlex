@@ -12,13 +12,11 @@
 }
 .about-us-inner p {
   width: 590px;
+  color: var(--gray);
 }
 .about-us-inner h3 {
   font-size: 48px;
   color: var(--dark-color);
-}
-.about-us-inner p {
-  color: var(--gray);
 }
 .stats {
   display: grid;
