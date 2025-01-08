@@ -28,13 +28,15 @@ a {
 ul {
   list-style: none;
 }
-@media screen and (max-width: 1440px) {
-  /* let's talks */
+@media screen and (max-width: 1500px) {
+  /* navbar */
+  .navbar {
+    margin-top: 20px;
+  }
   .lets-talk {
     width: 160px;
     height: 50px;
   }
-  /* navbar */
   .nav-links {
     margin-right: 50px;
   }
@@ -58,6 +60,38 @@ ul {
   }
 }
 @media screen and (max-width: 1428px) {
+  /* navbar */
+  .navbar-container {
+    display: inline-flex;
+  }
+  .nav-links {
+    display: none;
+  }
+  .lets-talk {
+    display: none;
+  }
+  .dropdown {
+    visibility: visible;
+    margin-left: 1000px;
+  }
+  .logo {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  /* getstarted */
+  .blub {
+    visibility: hidden;
+  }
+  .get-started-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .girl {
+    order: 1;
+  }
+  .get-started-inner {
+    order: 2;
+  }
   /* skills */
   .skills-container {
     grid-template-columns: 400px 400px 400px;
@@ -96,7 +130,13 @@ ul {
     height: 250px;
   }
 }
-@media screen and (maax-width: 1350px) {
+@media screen and (max-width: 1350px) {
+  /* navbar */
+  .dropdown {
+    margin-left: 800px;
+  }
+  /* getstarted */
+
   /* skills */
   .skills-container {
     margin-left: 20px;
@@ -105,6 +145,10 @@ ul {
   }
 }
 @media screen and (max-width: 1280px) {
+  /* navbar */
+  .dropdown {
+    margin-left: 700px;
+  }
   /* skills */
   .skills-container {
     grid-template-columns: 300px 300px 300px;
@@ -113,10 +157,6 @@ ul {
   .item p {
     font-size: 13px;
     margin-bottom: 10px;
-  }
-  .item button {
-    width: 200px;
-    height: 60px;
   }
 
   .speaking img {
@@ -152,6 +192,18 @@ ul {
   }
 }
 @media screen and (max-width: 1250px) {
+  /* navbar */
+  .dropdown {
+    margin-left: 500px;
+  }
+  /* getstarted */
+  .get-started-inner {
+    text-align: center;
+  }
+  .girl {
+    width: 500px;
+    height: 500px;
+  }
   /* skills */
   .skills-container {
     grid-template-columns: 250px 250px 250px;
@@ -212,6 +264,17 @@ ul {
   }
 }
 @media screen and (max-width: 990px) {
+  /* navbar */
+  .dropdown {
+    width: 50px;
+    height: 50px;
+    margin-left: 380px;
+  }
+  .logo {
+    margin-left: 50px;
+    margin-right: 100px;
+  }
+  /* skills */
   .skills-container {
     margin-left: 100px;
     grid-template-columns: 250px 250px 250px 250px;
@@ -244,6 +307,11 @@ ul {
   }
 }
 @media screen and (max-width: 700px) {
+  /* navbar */
+  .dropdown {
+    margin-left: 100px;
+  }
+  /* skills */
   .skills-container {
     margin-left: 100px;
     grid-template-columns: 290px;

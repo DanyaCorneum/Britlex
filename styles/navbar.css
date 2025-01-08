@@ -46,7 +46,8 @@
   border: none;
 }
 .dropdown {
-}
-.hidden {
   visibility: hidden;
+  box-sizing: border-box;
+  width: 25px;
+  height: 25px;
 }
