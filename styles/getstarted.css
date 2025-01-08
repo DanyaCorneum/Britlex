@@ -70,3 +70,23 @@
     text-align: center;
   }
 }
+@media screen and (max-width: 320px) {
+  .girl {
+    width: 300px;
+    height: 300px;
+  }
+  .get-started-inner h2 {
+    font-size: 24px;
+  }
+  .get-started-inner p {
+    font-size: 14px;
+  }
+  .get-started-inner h2 {
+    font-size: 24px;
+  }
+  .get-started-bt {
+    width: 200px;
+    height: 60px;
+    font-size: 24px;
+  }
+}
