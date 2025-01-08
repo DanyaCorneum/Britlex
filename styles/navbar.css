@@ -89,3 +89,16 @@
     height: 50px;
   }
 }
+@media screen and (max-width: 320px) {
+  .navbar-container {
+    justify-content: baseline;
+  }
+  .dropdown {
+    width: 75px;
+    height: 50px;
+  }
+
+  .logo {
+    margin-right: 100px;
+  }
+}

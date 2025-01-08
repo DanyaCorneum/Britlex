@@ -1,15 +1,15 @@
+.skills {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 .skills h2 {
   text-align: center;
   font-size: 48px;
   font-weight: 600;
   margin: 100px 0;
 }
-.skills {
-  margin: 0 auto;
-}
 .skills-container {
-  margin-left: 100px;
-  margin-right: 100px;
 }
 .skills-container {
   display: grid;
@@ -133,8 +133,11 @@
 }
 
 @media screen and (max-width: 900px) {
+  .skills {
+    margin: 0 20px 20px;
+  }
   .skills-container {
-    grid-template-columns: 300px;
+    grid-template-columns: 290px;
     grid-template-rows: 800px 800px 800px 800px;
     grid-gap: 10px;
   }

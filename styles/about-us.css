@@ -14,7 +14,7 @@
   width: 590px;
   color: var(--gray);
 }
-.about-us-inner h3 {
+.about-us-container h3 {
   font-size: 48px;
   color: var(--dark-color);
 }
@@ -38,4 +38,38 @@
 .teachers {
 }
 .languages {
+}
+
+@media screen and (max-width: 320px) {
+  .about-us {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .about-us-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about-us-inner {
+    order: 2;
+  }
+  .about-us-container h3 {
+    text-align: center;
+    font-size: 24px;
+  }
+  .about-us-inner p {
+    text-align: center;
+    margin: 0 auto;
+    height: 700px;
+    width: 200px;
+  }
+  .about-us img {
+    width: 283px;
+    height: 283px;
+    order: 1;
+  }
+  .stats {
+    grid-template-columns: 150px;
+    grid-template-rows: 300px 300px 300px;
+    justify-content: center;
+  }
 }
