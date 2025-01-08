@@ -37,12 +37,36 @@
   color: white;
   font-size: 30px;
   text-transform: capitalize;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: var(--dark-color);
 }
 
 .get-started-bt:hover {
   color: var(--dark-color);
   background-color: white;
-  border: 1px solid var(--dark-color);
+  border: 2px solid var(--dark-color);
+}
+
+@media screen and (max-width: 1200px) {
+  .get-started {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .blub {
+    visibility: hidden;
+  }
+  .get-started-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .girl {
+    order: 1;
+    width: 700px;
+    height: 700px;
+  }
+  .get-started-inner {
+    order: 2;
+    text-align: center;
+  }
 }
