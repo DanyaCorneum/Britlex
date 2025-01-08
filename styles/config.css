@@ -28,11 +28,4 @@ a {
 ul {
   list-style: none;
 }
-@media screen and (max-width: 992px) {
-}
-@media screen and (max-width: 767px) {
-}
-@media screen and (max-width: 575px) {
-}
-@media screen and (max-width: 320px) {
-}
+/* /* 

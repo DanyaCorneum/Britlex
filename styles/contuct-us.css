@@ -7,10 +7,6 @@
 .contuct-us-inner h2 {
   font-size: 40px;
 }
-.contuct-us-inner {
-  margin-left: 100px;
-  width: 770px;
-}
 
 .contuct-us-inner p {
   color: var(--gray);
