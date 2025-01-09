@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   padding: 0 50px;
+  width: 100%;
 }
 
 .girl {
@@ -47,7 +48,7 @@
   border: 2px solid var(--dark-color);
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .get-started {
     margin-left: 10px;
     margin-right: 10px;
@@ -59,6 +60,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 300px;
   }
   .girl {
     order: 1;
@@ -89,4 +91,4 @@
     height: 60px;
     font-size: 24px;
   }
-}
+} */

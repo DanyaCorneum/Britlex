@@ -31,19 +31,11 @@
   font-size: 40px;
   font-weight: 600;
 }
-.stats-text {
-}
-.people {
-}
-.teachers {
-}
-.languages {
-}
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   .about-us {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .about-us-container {
     flex-wrap: wrap;
@@ -51,6 +43,7 @@
   }
   .about-us-inner {
     order: 2;
+    width: 300px;
   }
   .about-us h3 {
     text-align: center;
@@ -72,4 +65,4 @@
     grid-template-rows: 300px 300px 300px;
     justify-content: center;
   }
-}
+} */

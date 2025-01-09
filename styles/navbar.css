@@ -1,5 +1,4 @@
 .navbar {
-  margin-right: 100px;
   margin-left: 100px;
 }
 .navbar-container {
@@ -52,53 +51,71 @@
   border: none;
 }
 .dropdown {
+  /* position: absolute; */
+  z-index: 0;
   visibility: hidden;
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
 }
 @media screen and (max-width: 1500px) {
   .lets-talk {
-    width: 160px;
-    height: 60px;
+    font-size: 16px;
   }
 }
 
 @media screen and (max-width: 1480px) {
+  .navbar {
+    margin-left: 20px;
+  }
+  .nav-link:nth-child(3) {
+    padding-right: 20px;
+  }
+  .logo {
+    margin-right: 120px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .nav-links {
+    margin-right: 20px;
+  }
+  .logo {
+    margin-right: 70px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .navbar-container {
+    margin: 0;
+  }
   .lets-talk {
     display: none;
   }
   .nav-links {
     display: none;
   }
-  .navbar-container {
-    justify-content: space-between;
-  }
   .dropdown {
     visibility: visible;
     position: relative;
-    top: 25%;
+    top: 15%;
   }
-  .navbar {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
-@media screen and (max-width: 500px) {
-  .dropdown {
-    width: 75px;
-    height: 50px;
-  }
-}
-@media screen and (max-width: 900px) {
-  .navbar-container {
-    justify-content: baseline;
-  }
-  .dropdown {
-    width: 75px;
-    height: 50px;
-  }
-
   .logo {
-    margin-right: 100px;
+    margin-right: 75%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .dropdown {
+    width: 35px;
+    height: 35px;
+    top: 35%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .logo {
+    margin-right: 50%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .logo {
+    margin-right: 25%;
   }
 }
