@@ -1,5 +1,5 @@
 .navbar {
-  margin-left: 100px;
+  margin-left: 150px;
 }
 .navbar-container {
   display: flex;
@@ -23,7 +23,7 @@
   width: 600px;
   height: 50px;
   font-weight: 500;
-  margin-right: 150px;
+  margin-right: 200px;
 }
 .nav-link {
   color: var(--dark-color);
@@ -65,7 +65,7 @@
 
 @media screen and (max-width: 1480px) {
   .navbar {
-    margin-left: 20px;
+    margin-left: 80px;
   }
   .nav-link:nth-child(3) {
     padding-right: 20px;
@@ -80,6 +80,12 @@
   }
   .logo {
     margin-right: 70px;
+  }
+  .lets-talk {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    top: 20%;
   }
 }
 
@@ -102,7 +108,10 @@
     margin-right: 75%;
   }
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 880px) {
+  .navbar {
+    margin-left: 20px;
+  }
   .dropdown {
     width: 35px;
     height: 35px;
