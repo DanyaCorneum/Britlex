@@ -98,4 +98,7 @@
     grid-template-areas: "one" "two" "three";
     grid-gap: 60px;
   }
+  .about-us-inner p {
+    font-size: 13pt;
+  }
 }
