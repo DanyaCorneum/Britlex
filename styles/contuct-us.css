@@ -32,7 +32,7 @@
   height: 80px;
   color: white;
   border-radius: 10px;
-  font-size: 20pt;
+  font-size: 20px;
 }
 .contuct-us-inner button:hover {
   background-color: white;
@@ -85,5 +85,8 @@
     height: 80px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 706px) {
+  .contuct-us-inner button {
+    margin-top: 20px;
+  }
 }
