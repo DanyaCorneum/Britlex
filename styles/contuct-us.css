@@ -4,10 +4,14 @@
 .contuct-us-container {
   display: flex;
 }
-.contuct-us-inner h2 {
+.contuct-us-container #first {
+  display: none;
+  font-size: 30pt;
+  margin: 0 auto;
+}
+.contuct-us-inner #second {
   font-size: 40px;
 }
-
 .contuct-us-inner p {
   color: var(--gray);
   font-size: 20px;
@@ -18,22 +22,68 @@
   border-radius: 10px;
   color: var(--gray);
   padding-right: 100px;
-}
-
-.contuct-us-inner input {
   padding-left: 20px;
   font-size: 16px;
 }
+
 .contuct-us-inner button {
   background-color: var(--dark-color);
   width: 250px;
   height: 80px;
   color: white;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 20pt;
 }
 .contuct-us-inner button:hover {
   background-color: white;
   border: 1px solid var(--dark-color);
   color: var(--dark-color);
+}
+@media screen and (max-width: 1285px) {
+  .contuct-us-container img {
+    width: 300px;
+    height: 300px;
+  }
+  .contuct-us-inner button {
+    width: 200px;
+    height: 80px;
+  }
+  .contuct-us-inner input {
+    width: 300px;
+    height: 80px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .contuct-us-container #first {
+    display: block;
+    margin-bottom: 100px;
+  }
+  .contuct-us-container #second {
+    display: none;
+  }
+  .contuct-us {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .contuct-us-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contuct-us-inner {
+    text-align: center;
+  }
+  .contuct-us-container img {
+    width: 100%;
+    height: 400px;
+  }
+  .contuct-us-inner button {
+    width: 300px;
+    height: 80px;
+  }
+  .contuct-us-inner input {
+    width: 300px;
+    height: 80px;
+  }
+}
+@media screen and (max-width: 500px) {
 }

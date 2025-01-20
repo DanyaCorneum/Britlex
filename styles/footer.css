@@ -12,7 +12,6 @@
   padding-bottom: 30px;
   margin-bottom: 50px;
 }
-
 .footer-container p {
   color: var(--gray);
   font-size: 24px;
@@ -20,5 +19,29 @@
 .footer-container a {
   color: var(--gray);
 }
-.footer-logo {
+@media screen and (max-width: 900px) {
+  .footer-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .footer-container p {
+    color: var(--gray);
+    font-size: 14px;
+  }
+  .footer-logo {
+    width: 70px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .footer-logo {
+    margin: 0 auto;
+  }
+  .footer-container p {
+    text-align: center;
+    margin: 0 auto;
+  }
 }

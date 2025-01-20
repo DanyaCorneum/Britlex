@@ -7,69 +7,98 @@
   display: flex;
   justify-content: space-between;
 }
-.about-us-inner {
-  width: 600px;
+#first-header {
+  display: none;
+  font-size: 48pt;
+  color: var(--dark-color);
+}
+.about-us-container img {
+  align-self: center;
 }
 .about-us-inner p {
-  width: 590px;
   color: var(--gray);
+  margin-right: 70px;
+  font-size: 20pt;
 }
-.about-us h3 {
-  font-size: 48px;
+#second-header {
+  font-size: 48pt;
   color: var(--dark-color);
 }
 .stats {
   display: grid;
-  grid-template-columns: 75px 300px 150px;
+  grid-template-areas: "one two three";
+  grid-gap: 20pt;
+  margin-top: 20px;
+}
+.people {
+  grid-area: one;
+}
+.teachers {
+  grid-area: two;
+}
+.languages {
+  grid-area: three;
 }
 .stats-item {
   text-align: center;
   color: var(--gray);
+  font-size: 20pt;
 }
 .num {
   color: var(--dark-color);
-  font-size: 40px;
+  font-size: 40pt;
   font-weight: 600;
 }
-.stats-text {
-}
-.people {
-}
-.teachers {
-}
-.languages {
-}
-
-@media screen and (max-width: 900px) {
-  .about-us {
-    margin-left: 10px;
-    margin-right: 10px;
+@media screen and (max-width: 1000px) {
+  .about-us-container img {
+    width: 300px;
+    height: 300px;
   }
-  .about-us-container {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .about-us-inner {
-    order: 2;
-  }
-  .about-us h3 {
-    text-align: center;
-    font-size: 24px;
+  #second-header {
+    font-size: 30pt;
   }
   .about-us-inner p {
+    font-size: 14pt;
+  }
+  .num {
+    font-size: 20pt;
+  }
+  .stats-item {
+    font-size: 13pt;
+  }
+}
+@media screen and (max-width: 700px) {
+  #first-header {
+    display: block;
     text-align: center;
     margin: 0 auto;
-    height: 700px;
-    width: 200px;
+    font-size: 24pt;
   }
-  .about-us img {
-    width: 283px;
-    height: 283px;
+  .about-us-container img {
+    width: 350px;
+    height: 350px;
     order: 1;
   }
+  .about-us-container {
+    flex-direction: column;
+  }
+  #second-header {
+    display: none;
+  }
+  .about-us-inner {
+    text-align: center;
+    order: 2;
+  }
+  .about-us-inner p {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 500px) {
   .stats {
-    grid-template-columns: 150px;
-    grid-template-rows: 300px 300px 300px;
-    justify-content: center;
+    grid-template-areas: "one" "two" "three";
+    grid-gap: 60px;
+  }
+  .about-us-inner p {
+    font-size: 13pt;
   }
 }

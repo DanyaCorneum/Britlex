@@ -6,8 +6,8 @@
   display: flex;
   justify-content: center;
   padding: 0 50px;
+  width: 100%;
 }
-
 .girl {
   width: 660px;
   height: 660px;
@@ -15,9 +15,9 @@
 .blub {
   position: absolute;
   left: 500px;
-  top: 270px;
-  width: 150px;
-  height: 150px;
+  top: 350px;
+  width: 100px;
+  height: 100px;
 }
 .get-started-inner h2 {
   font-size: 65px;
@@ -28,9 +28,6 @@
   color: var(--gray);
   font-size: 18px;
 }
-.get-started-inner {
-}
-
 .get-started-bt {
   width: 440px;
   height: 120px;
@@ -53,40 +50,85 @@
     margin-right: 10px;
   }
   .blub {
+    top: 220px;
+    left: 350px;
+  }
+  /* .get-started-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+  } */
+  .girl {
+    /* order: 1; */
+    width: 600px;
+    height: 600px;
+  }
+  .get-started-inner h2 {
+    font-size: 48px;
+  }
+  .get-started-inner p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .get-started {
+    margin: 0;
+  }
+  .blub {
+    width: 75px;
+    height: 75px;
+    top: 280px;
+    left: 300px;
+  }
+  .girl {
+    width: 450px;
+    height: 450px;
+  }
+  .get-started-inner {
+    margin-right: 100px;
+  }
+  .get-started-inner p {
+    font-size: 16px;
+    /* width: 300px; */
+    height: 100px;
+  }
+  .get-started-bt {
+    width: 236px;
+    height: 65px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .get-started {
+    margin: 0 auto;
+  }
+  .blub {
     visibility: hidden;
   }
   .get-started-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-  }
-  .girl {
-    order: 1;
-    width: 700px;
-    height: 700px;
   }
   .get-started-inner {
     order: 2;
+    margin: 0;
     text-align: center;
   }
+  .get-started-inner h2 {
+    font-size: 30px;
+  }
+  .get-started-bt {
+    margin-top: 20px;
+  }
+  /* .get-started-inner p {
+    height: 48px;
+    width: 600px;
+  } */
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 460px) {
   .girl {
     width: 300px;
     height: 300px;
-  }
-  .get-started-inner h2 {
-    font-size: 24px;
-  }
-  .get-started-inner p {
-    font-size: 14px;
-  }
-  .get-started-inner h2 {
-    font-size: 24px;
-  }
-  .get-started-bt {
-    width: 200px;
-    height: 60px;
-    font-size: 24px;
   }
 }
