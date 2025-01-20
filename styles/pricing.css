@@ -68,10 +68,13 @@
     align-items: center;
   }
   .pricing-item {
-    width: 100%;
+    width: 80%;
     text-align: center;
   }
   .pricing-item button {
     align-self: center;
+  }
+  .pricing-item p {
+    font-size: 10pt;
   }
 }
