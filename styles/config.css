@@ -1,4 +1,6 @@
-
+html {
+  box-sizing: border-box;
+}
 :root {
   --dark-color: #263238;
   --gray: #8f95a5;
