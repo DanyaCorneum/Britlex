@@ -18,7 +18,13 @@
     <link rel="stylesheet" href="styles/contuct-us.css">
     <link rel="stylesheet" href="styles/footer.css"/>
     <link rel="stylesheet" href="styles/config.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tippy.js@6/animations/shift-away.css"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moveTo/1.8.2/moveTo.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
   </head>
   <body>
     <div class="navbar">
@@ -32,7 +38,7 @@
           <a href="#pricing" class="nav-link">Pricing</a>
           <a href="#contuct-us" class="nav-link">Contacts</a>
         </div>
-        <button class="lets-talk">Let's talk</button>
+        <button class="lets-talk" data-tippy-content="let's start our learning!">Let's talk</button>
         <img class="dropdown hidden" src="images/dropdown.svg"></img>
       </div>
     </div>
@@ -176,5 +182,6 @@
       </div>
     </footer>
     <script src="app/scroll.js"></script>
+    <script src="app/tooltipes.js"></script>
   </body>
 </html>

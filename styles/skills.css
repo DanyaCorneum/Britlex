@@ -1,7 +1,6 @@
 .skills {
   margin-left: 100px;
   margin-right: 100px;
-  animation: skillsappearing 2s ease 1s normal forwards;
 }
 .skills h2 {
   text-align: center;
@@ -75,16 +74,7 @@
 .listening-inner {
   margin-top: 20px;
 }
-@keyframes skillsappearing {
-  0% {
-    opacity: 0;
-    transform: translateX(300px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
+
 @media screen and (max-width: 1200px) {
   .skills-container {
     display: grid;

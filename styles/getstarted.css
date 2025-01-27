@@ -1,7 +1,6 @@
 .get-started {
   margin-left: 100px;
   margin-right: 100px;
-  animation: getstartedappearing 2s ease 1s normal forwards;
 }
 .get-started-container {
   display: flex;
@@ -45,16 +44,7 @@
   background-color: white;
   border: 2px solid var(--dark-color);
 }
-@keyframes getstartedappearing {
-  0% {
-    opacity: 0;
-    transform: translateY(300px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
+
 @media screen and (max-width: 1200px) {
   .get-started {
     margin-left: 10px;
