@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="styles/contuct-us.css">
     <link rel="stylesheet" href="styles/footer.css"/>
     <link rel="stylesheet" href="styles/config.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moveTo/1.8.2/moveTo.js"></script>
   </head>
   <body>
     <div class="navbar">
@@ -25,17 +26,17 @@
       <div class="navbar-container">
         <img src="images/BritlexLogo.svg" alt="" class="logo" />
         <div class="nav-links">
-          <a href="#" class="nav-link">Home</a>
-          <a href="#" class="nav-link">Skills</a>
-          <a href="#" class="nav-link">About us</a>
-          <a href="#" class="nav-link">Pricing</a>
-          <a href="#" class="nav-link">Contacts</a>
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#about-us" class="nav-link">About us</a>
+          <a href="#pricing" class="nav-link">Pricing</a>
+          <a href="#contuct-us" class="nav-link">Contacts</a>
         </div>
         <button class="lets-talk">Let's talk</button>
         <img class="dropdown hidden" src="images/dropdown.svg"></img>
       </div>
     </div>
-    <div class="get-started">
+    <div class="get-started" id="home">
       <div class="get-started-container">
         <div class="get-started-inner">
           <h2>Learn <br>
@@ -53,7 +54,7 @@
         <img src="images/Learning languages-bro 1.svg" class="girl" alt="">
       </div>
     </div>
-    <div class="skills">
+    <div class="skills" id="skills">
       <h2>Skills</h2>
       <div class="skills-container">
         <div class="item speaking">
@@ -97,7 +98,7 @@
         </div>
       </div>
     </div>
-    <div class="about-us">
+    <div class="about-us" id="about-us">
       <h3 id="first-header">About Us</h3>
       <div class="about-us-container">
         <div class="about-us-inner">
@@ -112,7 +113,7 @@
         <img src="images/about us.svg" alt="about us">
       </div>
     </div>
-    <div class="pricing">
+    <div class="pricing" id="pricing">
       <h2>Pricing</h2>
       <div class="pricing-container">
         <div class="pricing-item">
@@ -148,7 +149,7 @@
         </div>
       </div>
     </div>
-    <div class="contuct-us">
+    <div class="contuct-us" id="contuct-us">
       <div class="contuct-us-container">
         <h2 id="first">Contuct us</h2>
         <img src="images/contuct us.svg" alt="">
@@ -174,5 +175,6 @@
           </p>
       </div>
     </footer>
+    <script src="app/scroll.js"></script>
   </body>
 </html>

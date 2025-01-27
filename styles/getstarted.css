@@ -75,7 +75,7 @@
     font-size: 20px;
   }
 }
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1300px) {
   .get-started {
     margin: 0;
   }
@@ -103,7 +103,7 @@
   }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 1030px) {
   .get-started {
     margin: 0 auto;
   }
