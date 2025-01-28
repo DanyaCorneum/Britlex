@@ -1,0 +1,61 @@
+.dropdownwindow {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.347);
+}
+.dropdownwindow-container {
+  background-color: white;
+  width: 40%;
+  transform: scaleX(-2000px);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+}
+.logo-dropdown {
+  margin-top: 25px;
+  width: 90px;
+  height: 45px;
+}
+.nav-links-dropdown {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.nav-link-dropdown {
+  color: var(--dark-color);
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.dropdown-line {
+  width: 200px;
+  height: 2px;
+  background-color: var(--gray);
+}
+.lets-talk-dropdown {
+  width: 150px;
+  padding: 5px;
+  color: var(--dark-color);
+  font-size: 18px;
+  background-color: white;
+  border: 2px solid var(--dark-color);
+  border-radius: 4px;
+  margin-top: 100px;
+}
+.cross {
+  font-size: 18pt;
+  font-weight: 600;
+  color: var(--dark-color);
+  position: relative;
+  left: 90%;
+  top: -5%;
+}

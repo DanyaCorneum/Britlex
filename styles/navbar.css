@@ -51,7 +51,6 @@
   border: none;
 }
 .dropdown {
-  /* position: absolute; */
   z-index: 0;
   visibility: hidden;
   width: 75px;
